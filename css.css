@@ -1,12 +1,9 @@
-*{box-sizing: border-box;}
-
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f7f7f7;
-    background-image: url(imagens/fundo01.jpg);
+    background-image:url(imagens/fundo01.jpg);
     background-attachment: fixed;
     background-size: cover;
 }
@@ -23,7 +20,7 @@ div {
 
 /* Estilo para títulos */
 h1, h2 {
-    color: #333;
+    color: #181818;
 }
 
 /* Estilo para linhas horizontais */
@@ -62,11 +59,3 @@ img {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
-/* Estilo para o rodapé */
-footer {
-    text-align: center;
-    margin-top: 20px;
-    padding-top: 20px;
-    border-top: 1px solid #ddd;
-    color: #777;
-}
