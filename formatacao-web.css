@@ -1,0 +1,58 @@
+/* Estilo geral */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-image: url(imagens/fundo01.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Container principal */
+div {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 23px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Títulos */
+h1,
+h2,
+h3 {
+    color: #333;
+    margin-top: 20px;
+}
+
+/* Links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Imagens */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Figuras */
+figure {
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+
+figcaption {
+    font-weight: bold;
+}
