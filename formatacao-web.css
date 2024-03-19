@@ -62,5 +62,5 @@ figcaption {
 hr {
     width: 100%;
     height: 1px;
-    background-color: #ddd;
+    background-color: gray;
 }
